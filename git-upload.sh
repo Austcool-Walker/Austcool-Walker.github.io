@@ -8,4 +8,4 @@ git add --all
 
 git commit -m 'Update'
 
-git push --set-upstream  https://github.com/Austcool-Walker/Austcool-Walker.github.io.git master
+git push --force --set-upstream https://github.com/Austcool-Walker/Austcool-Walker.github.io.git master
