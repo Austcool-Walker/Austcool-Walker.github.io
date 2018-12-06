@@ -599,10 +599,10 @@ Maintainer: Austcool Walker <0ajwalker@gmail.com>
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
 Filename: ./debs/com.repo.Austcool.com.filza64bit_3.5.2-4k_iphoneos-arm.deb
-Size: 7011140
-MD5sum: de940c227cff7b4fa8b411c25d308ecc
-SHA1: 63037ccd68383621e308a6999b4aabdde79c8df7
-SHA256: 4c78e1127d745ed91fd994b850303282fd253a2d3c969f417a7ecdd39de3ffa4
+Size: 7011976
+MD5sum: 88951f6bf4a217e7ad46e31f9206b060
+SHA1: ea41c7bc680348ea6fe91e88cabfe34261c87512
+SHA256: df2ec351b828eda71af3751aba549cd67381a51cc90a78cedb10358e73b9ba9a
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
