@@ -256,6 +256,27 @@ Author: Austcool <0AJWalker@gmail.com>
 Dev: Austcool Walker
 Name: Apple Calculator
 
+Package: com.apple.calculator.64bit
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 10.0)
+Conflicts: com.apple.calculator
+Replaces: com.apple.calculator
+Provides: com.apple.calculator.64bit
+Filename: ./debs/com.apple.calculator.64bit_1.0_iphoneos-arm.deb
+Size: 313024
+MD5sum: 77e7fadc0de835d49d5b14c43e384faf
+SHA1: bd5a33232ff50644f5be98a43cb47346f31f780e
+SHA256: a5a91c18ab6845133c694f77dd6522b97b9605f75635d43ea6de912d8dd8f1e5
+Section: Tweaks
+Priority: optional
+Description: Apples Calculator for iDevices that didn't come with it. An example is the iPad Mini 2 iPad mini 4 iPad Pro other iPads that did not come with it!
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Austcool <0AJWalker@gmail.com>
+Dev: Austcool Walker
+Name: Apple Calculator 64bit
+
 Package: com.bytafont.bytafont2
 Version: 2.6.4
 Architecture: iphoneos-arm
