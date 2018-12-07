@@ -265,10 +265,10 @@ Conflicts: com.apple.calculator
 Replaces: com.apple.calculator
 Provides: com.apple.calculator.64bit
 Filename: ./debs/com.apple.calculator.64bit_1.0_iphoneos-arm.deb
-Size: 313024
-MD5sum: 77e7fadc0de835d49d5b14c43e384faf
-SHA1: bd5a33232ff50644f5be98a43cb47346f31f780e
-SHA256: a5a91c18ab6845133c694f77dd6522b97b9605f75635d43ea6de912d8dd8f1e5
+Size: 312284
+MD5sum: 870e0b9e222a0ca2ca3259df2b9d87fc
+SHA1: 3c1c56888d995511ba784e1a62d962f7ddacf8c8
+SHA256: 417119b6b3dfb691dac3e55dda7387d0b058dd80f159d775cc573c8c56250057
 Section: Tweaks
 Priority: optional
 Description: Apples Calculator for iDevices that didn't come with it. An example is the iPad Mini 2 iPad mini 4 iPad Pro other iPads that did not come with it!
@@ -620,10 +620,10 @@ Maintainer: Austcool Walker <0ajwalker@gmail.com>
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
 Filename: ./debs/com.repo.Austcool.com.filza64bit_3.5.2-4k_iphoneos-arm.deb
-Size: 7011976
-MD5sum: 88951f6bf4a217e7ad46e31f9206b060
-SHA1: ea41c7bc680348ea6fe91e88cabfe34261c87512
-SHA256: df2ec351b828eda71af3751aba549cd67381a51cc90a78cedb10358e73b9ba9a
+Size: 7010804
+MD5sum: 202b72ef93404384085b35eb19ee5307
+SHA1: c19192cc20579708c2875342bb30fd16d6dbd8c5
+SHA256: 87e6aaf84cd70abb1f5750a67c67096cfda949838fcf1a25a6a8ddf668cccdb7
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
