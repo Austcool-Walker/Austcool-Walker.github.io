@@ -865,7 +865,7 @@ Version: 3.0.1-3
 Architecture: iphoneos-arm
 Maintainer: Dylan Araps <dylan.araps@gmail.com>
 Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
-Filename: ./debs/neofetch_iphoneos.deb
+Filename: ./debs/net.dylanaraps.neofetch_iphoneos-arm.deb
 Size: 272370
 MD5sum: ed21fab219ca24c6c40fe1507b6a845c
 SHA1: fd80edc4b6fb56a90bf56f31576760c5a725103c
