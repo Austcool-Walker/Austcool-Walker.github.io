@@ -1,5 +1,7 @@
 #!/bin/bash
 
-cd /home/noire/Desktop/Austcool-Walker.github.io
+cd "$(dirname "$0")"
 
 dpkg-scanpackages -m . /dev/null >Packages
+
+gzip -f -k -v Packages

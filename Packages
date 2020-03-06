@@ -153,7 +153,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <Austcool-Walker.github.io>
 Installed-Size: 253
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0)
-Filename: ./debs/com.Austcool.wifibooster_2.0.2_iphoneos-arm.deb
+Filename: ./debs/com.austcool.wifibooster_2.0.2_iphoneos-arm.deb
 Size: 71818
 MD5sum: 3a203a5b45019f3ef56d4ae9e92ed6f9
 SHA1: c95ba73c6b40af6a83fbe8822bfbfefbdfba2598
@@ -174,7 +174,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <Austcool-Walker.github.io>
 Installed-Size: 253
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0)
-Filename: ./debs/com.austcool.wifibooster_2.0.2_iphoneos-arm.deb
+Filename: ./debs/com.Austcool.wifibooster_2.0.2_iphoneos-arm.deb
 Size: 71818
 MD5sum: 3a203a5b45019f3ef56d4ae9e92ed6f9
 SHA1: c95ba73c6b40af6a83fbe8822bfbfefbdfba2598
@@ -277,6 +277,21 @@ Author: Austcool <0AJWalker@gmail.com>
 Dev: Austcool Walker
 Name: Apple Calculator 64bit
 
+Package: com.austcool.FilzaToiFile
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Austcool Walker <0ajwalker@gmail.com>
+Depends: com.anemonetheming.anemone
+Filename: ./debs/com.austcool.filzatoifile_1.0_iphoneos-arm.deb
+Size: 98544
+MD5sum: 8df1bb64af9059e91442a2f166970bf7
+SHA1: 414b2c1518e63536c2fbc9f904ca8ee52cddfd6e
+SHA256: 3e9410cd83aac7ca42ff6c6c5d8c1a9181914617988a0080c6f89d2455549353
+Section: HYI - iPad HD Themes
+Description: Filza->iFile for iPad
+Author: Austcool Walker <0ajwalker@gmail.com>
+Name: Filza->iFile for iPad
+
 Package: com.bytafont.bytafont2
 Version: 2.6.4
 Architecture: iphoneos-arm
@@ -292,6 +307,23 @@ Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
 Author: BytaFont.com <info@bytafont.com>
 Depiction: http://repo.bytafont.com/bytafont/264
 Name: BytaFont 2
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.bytafont.bytafont3
+Version: 3.1.5
+Architecture: iphoneos-arm
+Maintainer: BytaFont.com <info@bytafont.com>
+Depends: firmware (>= 9),unzip,mobilesubstrate
+Filename: ./debs/com.bytafont.bytafont3_3.1.5_iphoneos-arm.deb
+Size: 2029590
+MD5sum: 5cb8e1c20d3d6a89beaf6d8a2eed2255
+SHA1: e2cfda6ddc6e13828da71ab0d51eb7a04ef5587e
+SHA256: d621331e1e78b9a4f7fac6431753521714a617705c373828c193fb78382ff6c4
+Section: System
+Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
+Author: BytaFont.com <info@bytafont.com>
+Depiction: http://repo.bytafont.com/bytafont_depiction
+Name: BytaFont 3
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.bytafont.bytafonttm
@@ -485,6 +517,24 @@ Depiction: http://julio.xarold.com/files-deb/cydown.html
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
+Package: com.julioverne.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Size: 898776
+MD5sum: 3cdb7b8a0924425910d1f95a813c82e9
+SHA1: 2fc69b69e7982ce423ccdb0f67defea25fa82032
+SHA256: 6e6bf61d15b5de08fa2302e8fcbf4184a75317031ec431396c998f82e3d77d44
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
 Package: com.julioverne.ext3nder-installer
 Version: 021a
 Architecture: iphoneos-arm
@@ -497,6 +547,25 @@ Size: 517614
 MD5sum: 97410eb497efc82931531097c071311f
 SHA1: ecbafe7ee17c2f5baaf989ac81579827b231983d
 SHA256: 7add7422664dd3040af6ce10f68a3d200c0bb4d522ce78deb1ef2e093652f135
+Section: Utilities
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Extender Installer With Extra Features
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
+Name: Ext3nder Installer
+
+Package: com.julioverne.ext3nder-installer
+Version: 022b
+Architecture: iphoneos-arm
+Maintainer: Julio
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Depends: mobilesubstrate
+Conflicts: com.julioverne.ext3nder
+Filename: ./debs/com.julioverne.ext3nder-installer_022b_iphoneos-arm.deb
+Size: 1947692
+MD5sum: c125341ea7283265364d6755d696bc5b
+SHA1: cc947c68cf9bb0f73a672b346096edf85c26f31e
+SHA256: 176948a72235dad6d63cdb9183a2640c43eee7e9a9b63edd7a92dfb3b6e8738f
 Section: Utilities
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Extender Installer With Extra Features
@@ -539,6 +608,42 @@ Depiction: http://julioverne.github.io/description.html?id=com.julioverne.goodwi
 Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
 Name: GoodWiFi
 
+Package: com.julioverne.goodwifi
+Version: 0.0~beta5
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.goodwifi_0.0~beta5_iphoneos-arm.deb
+Size: 128608
+MD5sum: 0ae4fff284acdb6e398819f26b4f78ec
+SHA1: 32095bc6ee409ce1ab3e252e42cf7d5aa281ae50
+SHA256: 8b3970eb773db7bd96213979b9dcd79e104ebd38d8a016c06c52ee53ab239f1f
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+
+Package: com.julioverne.heysiri
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.heysiri_0.0~beta6_iphoneos-arm.deb
+Size: 103384
+MD5sum: c05b579d8b4108a8b921d427e5fe09b7
+SHA1: d385a70c43e6512c9b4b9c9953beea9fbf6fc1c0
+SHA256: 0a6eac79dd7492de4f699eecc56949eaeed4bea89217b3fb09f5862be697c5eb
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Hey Siri While Not Charging
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.heysiri
+Icon: file:///Library/PreferenceBundles/HeySiriSettings.bundle/icon@2x.png
+Name: HeySiri
+
 Package: com.julioverne.musilyric
 Version: 0.5~beta6a
 Architecture: iphoneos-arm
@@ -571,6 +676,22 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: System Administrator
 Name: InApp
+
+Package: com.laughingquoll.turkey
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.laughingquoll.turkey_0.0.1_iphoneos-arm.deb
+Size: 11028
+MD5sum: f8903e58f2f417cc151aa96bfd5bf90c
+SHA1: b44fa45d8be335df01f10dd1a1c9ad02bd6b5fee
+SHA256: a5acfa94ada8b770463b01ee13988a6e0aba337e03b464f8bf0de5fabc09a747
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: LaughingQuoll
+Name: Turkey
 
 Package: com.modmyi.minecraftfontios8
 Version: 2.0
@@ -722,6 +843,22 @@ Description: Betternet Premium Hack - this hack is going to give you the feature
 Author: Techpro Hacker
 Name: Betternet Premium Hack
 
+Package: cydia.austcool.org.filzafilemanager64
+Version: 3.7.2-8k
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza64bit
+Filename: ./debs/cydia.austcool.org.filzafilemanager64_3.7.2-8k_iphoneos-arm.deb
+Size: 16994946
+MD5sum: 848e358f9a772b59aa06c9645b550273
+SHA1: 34cf7480a571b9b636ed9f66cd8757684f3b7692
+SHA256: 2148c1ee78241318fd076f779f5bea657ccb5525719b621f8df2d0c8aa596c03
+Section: Utilities
+Author: TIGI Software
+Name: Filza File Manager Cracked
+Sponsor: kiiimo.org <http://kiiimo.org>
+
 Package: me.qusic.networklist
 Version: 0.4.1
 Architecture: iphoneos-arm
@@ -773,7 +910,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_6.0-b1_iphoneos-arm.deb
+Filename: ./debs/net.angelxwind.appsyncunified_6.0~b1_iphoneos-arm.deb
 Size: 28060
 MD5sum: 08ebf3470673bd5297e8f15e1d8c35da
 SHA1: 4117cdebf3369df220de4330ebc9b7a38dd18442
@@ -794,7 +931,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_6.0~b1_iphoneos-arm.deb
+Filename: ./debs/net.angelxwind.appsyncunified_6.0-b1_iphoneos-arm.deb
 Size: 28060
 MD5sum: 08ebf3470673bd5297e8f15e1d8c35da
 SHA1: 4117cdebf3369df220de4330ebc9b7a38dd18442
@@ -807,23 +944,24 @@ Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.angelxwind.appsyncunified
-Version: 8.2
+Version: 70.0
 Architecture: iphoneos-arm
-Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 11.0)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.3.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_8.2_iphoneos-arm.deb
-Size: 29054
-MD5sum: b381138d369e5781408ba71debfc32c0
-SHA1: 8a3105cfda999f44e3fdd3354fc515c35cde0b89
-SHA256: 71ddc3c08894eeaa4fb7dac824170e8583b348325897cfe3b1868854a0c555bc
+Filename: ./debs/nodelete-net.angelxwind.appsyncunified.deb
+Size: 41990
+MD5sum: e5e3bdd13d5389a1463525010c568a32
+SHA1: d7f6998f6b6b121c0927abcaa202d2adde94aa84
+SHA256: a1fc5fdf73c1fa3b19807d566e71b62a0217be86b4730da2eac2c3fd80b359dd
 Section: Tweaks
-Homepage: http://cydia.angelxwind.net/
+Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen／明美 <angelXwind@angelxwind.net>
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.angelxwind.stash841
@@ -989,6 +1127,22 @@ Section: System
 Description: Stash 3rd party components to make more space for them!
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 9.3.5
+
+Package: org.cydia.kiimo.a-font
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Installed-Size: 316
+Depends: mobilesubstrate
+Filename: ./debs/org.cydia.kiimo.a-font_1.2_iphoneos-arm.deb
+Size: 15950
+MD5sum: 9b6cc1e4ad41ce4b3628e33ca063dc76
+SHA1: 148c946a444378be4c30749c9dd431d4ab5c5f34
+SHA256: fc91a6894e072c21c906dbb558ad180994af50837637f12d87e581e61e60ac39
+Section: iOS 12
+Author: Baw Appie <pp121324@gmail.com>
+Name: A-Font
+Sponsor: kiiimo.org <http://kiiimo.org>
 
 Package: org.herf.flux
 Version: 0.9988
