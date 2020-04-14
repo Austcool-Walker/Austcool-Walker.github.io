@@ -153,7 +153,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <Austcool-Walker.github.io>
 Installed-Size: 253
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0)
-Filename: ./debs/com.austcool.wifibooster_2.0.2_iphoneos-arm.deb
+Filename: ./debs/com.Austcool.wifibooster_2.0.2_iphoneos-arm.deb
 Size: 71818
 MD5sum: 3a203a5b45019f3ef56d4ae9e92ed6f9
 SHA1: c95ba73c6b40af6a83fbe8822bfbfefbdfba2598
@@ -174,7 +174,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <Austcool-Walker.github.io>
 Installed-Size: 253
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0)
-Filename: ./debs/com.Austcool.wifibooster_2.0.2_iphoneos-arm.deb
+Filename: ./debs/com.austcool.wifibooster_2.0.2_iphoneos-arm.deb
 Size: 71818
 MD5sum: 3a203a5b45019f3ef56d4ae9e92ed6f9
 SHA1: c95ba73c6b40af6a83fbe8822bfbfefbdfba2598
@@ -265,10 +265,10 @@ Conflicts: com.apple.calculator
 Replaces: com.apple.calculator
 Provides: com.apple.calculator.64bit
 Filename: ./debs/com.apple.calculator.64bit_1.0_iphoneos-arm.deb
-Size: 312284
-MD5sum: 870e0b9e222a0ca2ca3259df2b9d87fc
-SHA1: 3c1c56888d995511ba784e1a62d962f7ddacf8c8
-SHA256: 417119b6b3dfb691dac3e55dda7387d0b058dd80f159d775cc573c8c56250057
+Size: 182876
+MD5sum: daf2141ac73c4e3124015eff102a44fb
+SHA1: e0e02767519f21423d1ed60a379d1b598005dfff
+SHA256: c81986016cf2c0172e99c7c7eb687ad17f177eea91d67fe3020fa093496f9367
 Section: Tweaks
 Priority: optional
 Description: Apples Calculator for iDevices that didn't come with it. An example is the iPad Mini 2 iPad mini 4 iPad Pro other iPads that did not come with it!
@@ -1004,10 +1004,10 @@ Architecture: iphoneos-arm
 Maintainer: Dylan Araps <dylan.araps@gmail.com>
 Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
 Filename: ./debs/net.dylanaraps.neofetch_iphoneos-arm.deb
-Size: 272370
-MD5sum: ed21fab219ca24c6c40fe1507b6a845c
-SHA1: fd80edc4b6fb56a90bf56f31576760c5a725103c
-SHA256: cdb089e461c863ad489ca22ca466379b6d9123159a6ab8abe356885d0ebf90da
+Size: 54580
+MD5sum: 55e0bb00a620caa9474441d9a195023f
+SHA1: 6543e73564489b2b78fd806a541087cca46b8ddf
+SHA256: 2b1d48b5c332900ccc82d788626eddbb9851cec485790f1d02e600ec9eb3dbc1
 Section: Utilities
 Homepage: http://dylanaraps.com/repo
 Description: A fast, highly customizable system info script that supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd, MINIX, AIX and Windows (Cygwin/MSYS2/Windows 10 Linux subsystem)
