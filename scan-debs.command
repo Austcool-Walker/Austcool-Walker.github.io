@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd home/ajw/Desktop/Austcool-Walker.github.io
+cd $PWD
 
 dpkg-scanpackages -m . /dev/null >Packages
