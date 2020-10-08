@@ -1021,6 +1021,23 @@ Version: 3.0.1-3
 Architecture: iphoneos-arm
 Maintainer: Dylan Araps <dylan.araps@gmail.com>
 Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
+Filename: ./debs/net.dylanaraps.neofetch_3.0.1-3_iphoneos-arm.deb
+Size: 61108
+MD5sum: 472e5dd70870ff983abc440c5f388a84
+SHA1: 15d8bfc18ef4fcb5b7f63616baadf897f4a63247
+SHA256: b33b0941f58556176f5e0c662f210d5f485eb6576b3bbf7631a3283786dc3103
+Section: Utilities
+Homepage: http://dylanaraps.com/repo
+Description: A fast, highly customizable system info script that supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd, MINIX, AIX and Windows (Cygwin/MSYS2/Windows 10 Linux subsystem)
+Author: Dylan Araps <dylan.araps@gmail.com>
+Name: Neofetch
+Repo: https://github.com/dylanaraps/neofetch
+
+Package: net.dylanaraps.neofetch
+Version: 3.0.1-3
+Architecture: iphoneos-arm
+Maintainer: Dylan Araps <dylan.araps@gmail.com>
+Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
 Filename: ./debs/net.dylanaraps.neofetch_iphoneos-arm.deb
 Size: 54580
 MD5sum: 55e0bb00a620caa9474441d9a195023f
@@ -1253,6 +1270,30 @@ Section: System
 Priority: important
 Description: universally unique identifiers
 Name: UUID Generator
+
+Package: ws.austcool.newterm2
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2192
+Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.austcool.newterm2_2.0_iphoneos-arm.deb
+Size: 1001254
+MD5sum: 54a95f504f971fb201007be500d964d8
+SHA1: 851c41021cef112410f6d908b53383600cccd10e
+SHA256: 4a85725489e93da9525bac3449f31ab41d4887fea959c6c69a7b1a0779dcfc65
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://cydia.hbang.ws/package/ws.hbang.newterm2/
+Dev: hbang
+Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
+Name: NewTerm 2 (iOS 7 – 11)
+Sponsor: thebigboss.org <http://thebigboss.org>
+Support: https://hbang.ws/support/
 
 Package: ws.hbang.newterm
 Version: 1.0~beta1
