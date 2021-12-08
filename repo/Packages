@@ -1,0 +1,1663 @@
+Package: applist
+Version: 1.5.13
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Architecture: iphoneos-arm
+Filename: ./debs/applist_1.5.13_iphoneos-arm.deb
+Size: 145960
+Installed-Size: 600
+MD5sum: a246635d6757f54e1e460ef675f14a8e
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
+Package: apt7
+Version: 0.7.25.3-8
+Priority: standard
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Replaces: apt (<< 1:0-1)
+Architecture: iphoneos-arm
+Filename: ./debs/apt7_0.7.25.3-8_iphoneos-arm.deb
+Size: 252966
+Installed-Size: 1072
+MD5sum: da65a91675bcde5f9174d8fb6e1669ed
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+
+Package: apt7-lib
+Version: 0.7.25.3-13
+Priority: required
+Section: Packaging
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
+Conflicts: apt7-ssl
+Provides: apt7-ssl
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Architecture: iphoneos-arm
+Filename: ./debs/apt7-lib_0.7.25.3-13_iphoneos-arm.deb
+Size: 464616
+Installed-Size: 1692
+MD5sum: aa6dff0f58055e0e9251359c0645655b
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
+
+Package: aptcn.afc2forios11
+Version: 1.0
+Section: 依赖文件Panda
+Maintainer: saurik, Cannathea <csupport@cannathea.com>
+Depends: firmware (>= 11)
+Architecture: iphoneos-arm
+Filename: ./debs/aptcn.afc2forios11_1.0_iphoneos-arm.deb
+Size: 9546
+Installed-Size: 214
+MD5sum: 8f4cd32fca9fbba9ba231e00415f6443
+Name: Apple File Conduit "2" For IOS11
+Author: saurik, Cannathea <csupport@cannathea.com>
+Sponsor: saurik, Cannathea <csupport@cannathea.com>
+Icon: file:///Applications/Cydia.app/Sections/System.png
+
+Package: com.Austcool.FilzaToiFile
+Version: 1.0
+Section: HYI - iPad HD Themes
+Maintainer: Austcool Walker <0ajwalker@gmail.com>
+Depends: com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/com.Austcool.FilzaToiFile_1.0_iphoneos-arm.deb
+Size: 98302
+MD5sum: cc2f1e760b016ab1755ee2d711105998
+Description: Filza->iFile for iPad
+Name: Filza->iFile for iPad
+Author: Austcool Walker <0ajwalker@gmail.com>
+
+Package: com.Austcool.crunchyroll++
+Version: 1.0~beta1
+Section: System
+Maintainer: Austcool <0ajwalker@gmail.com>
+Pre-Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.Austcool.crunchyroll++_1.0~beta1_iphoneos-arm.deb
+Size: 28935630
+MD5sum: b177f41d7922f67b13b63a6efa6cc628
+Description: Crunchyroll++ as installed as root
+Name: Crunchyroll++
+Author: Austcool <0ajwalker@gmail.com>
+
+Package: com.Austcool.networkknowledge
+Version: 0.0.1-3
+Section: Tweaks
+Maintainer: Austcool Walker <0ajwalker@gmail.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.Austcool.networkknowledge_0.0.1-3_iphoneos-arm.deb
+Size: 2158
+Installed-Size: 9
+MD5sum: bda6e1baf992c045f00f78c7a9f346a0
+Description: Add Known Networks to Wifi Settings
+Name: NetworkKnowledge
+Author: Austcool Walker <0ajwalker@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=networkknowledgeDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=networkknowledgeDp
+
+Package: com.Austcool.wifibooster
+Version: 2.0.2
+Section: Tweaks
+Maintainer: BigBoss <Austcool-Walker.github.io>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.Austcool.wifibooster_2.0.2_iphoneos-arm.deb
+Size: 71818
+Installed-Size: 253
+MD5sum: 3a203a5b45019f3ef56d4ae9e92ed6f9
+Description: networks list shows all wifi access points
+Name: WiFi Booster
+Author: Malcolm Hall <indiekiduk@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiboosterData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiboosterData
+
+Package: com.Austcool.wifibooster
+Version: 2.0.2
+Section: Tweaks
+Maintainer: BigBoss <Austcool-Walker.github.io>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.austcool.wifibooster_2.0.2_iphoneos-arm.deb
+Size: 71818
+Installed-Size: 253
+MD5sum: 3a203a5b45019f3ef56d4ae9e92ed6f9
+Description: networks list shows all wifi access points
+Name: WiFi Booster
+Author: Malcolm Hall <indiekiduk@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiboosterData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiboosterData
+
+Package: com.a3tweaks.flipswitch
+Version: 1.0.15
+Section: System
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.5) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Architecture: iphoneos-arm
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.15_iphoneos-arm.deb
+Size: 378790
+Installed-Size: 2012
+MD5sum: 4f469c1b734e9d9b7d0f93d74594f278
+Description: Centralized toggle system for iOS
+Name: Flipswitch
+Author: rpetrich & A3Tweaks <rpetrich+flipswitch@gmail.com>
+Depiction: http://rpetri.ch/cydia/flipswitch/
+Homepage: http://rpetri.ch/cydia/flipswitch/
+Icon: file:///Applications/Preferences.app/icon-table.png
+
+Package: com.apple.calculator
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0)
+Conflicts: com.apple.calculator
+Provides: com.apple.calculator
+Replaces: com.apple.calculator
+Architecture: iphoneos-arm
+Filename: ./debs/com.apple.calculator_1.0_iphoneos-arm.deb
+Size: 197594
+MD5sum: f243a2a55dead28f9bc123ab6d3e61f8
+Description: Apples Calculator for iDevices that didn't come with it. An example is the iPad Mini iPad 2 other iPads that did not come with it!
+Name: Apple Calculator
+Author: Austcool <0AJWalker@gmail.com>
+
+Package: com.apple.calculator.64bit
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 10.0)
+Conflicts: com.apple.calculator
+Provides: com.apple.calculator.64bit
+Replaces: com.apple.calculator
+Architecture: iphoneos-arm
+Filename: ./debs/com.apple.calculator.64bit_1.0_iphoneos-arm.deb
+Size: 182876
+MD5sum: daf2141ac73c4e3124015eff102a44fb
+Description: Apples Calculator for iDevices that didn't come with it. An example is the iPad Mini 2 iPad mini 4 iPad Pro other iPads that did not come with it!
+Name: Apple Calculator 64bit
+Author: Austcool <0AJWalker@gmail.com>
+
+Package: com.austcool.FilzaToiFile
+Version: 1.0
+Section: HYI - iPad HD Themes
+Maintainer: Austcool Walker <0ajwalker@gmail.com>
+Depends: com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/com.austcool.filzatoifile_1.0_iphoneos-arm.deb
+Size: 98544
+MD5sum: 8df1bb64af9059e91442a2f166970bf7
+Description: Filza->iFile for iPad
+Name: Filza->iFile for iPad
+Author: Austcool Walker <0ajwalker@gmail.com>
+
+Package: com.bytafont.bytafont2
+Version: 2.6.4
+Section: System
+Maintainer: BytaFont.com <info@bytafont.com>
+Depends: firmware (>= 7),applist,unzip
+Architecture: iphoneos-arm
+Filename: ./debs/com.bytafont.bytafont2_2.6.4_iphoneos-arm.deb
+Size: 1694528
+MD5sum: 2c2f4a8788927f4c30014989fe76af85
+Description: BytaFont 2 lets you apply fonts to your iDevice in few taps.
+Name: BytaFont 2
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://repo.bytafont.com/bytafont/264
+
+Package: com.bytafont.bytafont3
+Version: 3.1.5
+Section: System
+Maintainer: BytaFont.com <info@bytafont.com>
+Depends: firmware (>= 9),unzip,mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.bytafont.bytafont3_3.1.5_iphoneos-arm.deb
+Size: 2029590
+MD5sum: 5cb8e1c20d3d6a89beaf6d8a2eed2255
+Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
+Name: BytaFont 3
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://repo.bytafont.com/bytafont_depiction
+
+Package: com.bytafont.bytafonttm
+Version: 1.1.4
+Section: Tweaks
+Maintainer: BytaFont.com <info@bytafont.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.bytafont.bytafonttm_1.1.4_iphoneos-arm.deb
+Size: 26422
+MD5sum: 746f302c5d3602659fdd4b744e290176
+Description: BytaFont Tweak Mode
+Name: BytaFont Tweak Mode
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://repo.bytafont.com/bytafont_tweakmode_depiction
+
+Package: com.chikuwa.copyrepourl
+Version: 0.0.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.chikuwa.copyrepourl_0.0.1_iphoneos-arm.deb
+Size: 33492
+Installed-Size: 168
+MD5sum: 939b38802dce6dff228e8a36514f775a
+Description: copy repo url from Cydia Sources list
+Name: CopyRepoURL
+Author: Chikuwa <chikuwajb@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=copyrepourlDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=copyrepourlDp
+
+Package: com.google.chrome.ios
+Version: 1.0
+Section: System
+Maintainer: Austcool Walker
+Architecture: iphoneos-arm
+Filename: ./debs/com.google.chrome.ios_1.0_iphoneos-arm.deb
+Size: 33390740
+MD5sum: 561a7bf0552be4cbd9921e6892bed34a
+Description: Google Chrome Installed Root!
+Name: Chrome
+Author: Austcool Walker <0ajwalker@gmail.com>
+Website: 0ajwalker@gmail.com
+
+Package: com.google.chrome.ios7+
+Version: 1.0
+Section: System
+Maintainer: Austcool Walker
+Architecture: iphoneos-arm
+Filename: ./debs/com.google.chrome.ios7+_1.0_iphoneos-arm.deb
+Size: 67003734
+MD5sum: 7084421a24419f03d3ac6548d4d725c6
+Description: Google Chrome Installed Root! iOS 7+
+Name: Chrome
+Author: Austcool Walker <0ajwalker@gmail.com>
+Website: 0ajwalker@gmail.com
+
+Package: com.greensnow.noupdate
+Version: 1.4
+Priority: extra
+Section: Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.greensnow.noupdate_1.4_iphoneos-arm.deb
+Size: 7198
+MD5sum: 8f26472af08b6152ccba72ce2cc3940d
+Description: This stops new Software Being Discoverable in the Sofware Update Section.
+Name: No Update
+Author: greensnow <blake_rocks_13@hotmail.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://modmyi.com/info/noupdate.d.php
+Homepage: http://modmyi.com/info/noupdate.php
+
+Package: com.hackyouriphone.IconRepo
+Version: 8.0.4
+Section: HYI
+Essential: yes
+Maintainer: iDevid <repo@hackyouriphone.org>
+Architecture: iphoneos-arm
+Filename: ./debs/com.hackyouriphone.iconrepo_8.0.4_iphoneos-arm.deb
+Size: 161614
+MD5sum: 8ac7f7ff0f0f0899097f8001abf06675
+Description: Officials HYI Repo Icons
+Name: HYI Repo Icons
+Author: HackYouriPhone <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=IconRepo
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=IconRepo
+
+Package: com.hackyouriphone.acesierraxforipad
+Version: 1.0
+Section: HYI - iPad HD Themes
+Maintainer: iDevid <repo@hackyouriphone.org>
+Depends: com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./debs/com.hackyouriphone.acesierraxforipad_1.0_iphoneos-arm.deb
+Size: 8279596
+MD5sum: a92487d278eb446a7aac8582ad008972
+Description: Ace Sierra X for iPad
+Name: Ace Sierra X for iPad
+Author: anasgaberali <e.anasgaber@ymail.com>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=acesierraxforipad
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=acesierraxforipad
+
+Package: com.hackyouriphone.bgvideo
+Version: 1.0-1
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 6.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.hackyouriphone.bgvideo_1.0-1_iphoneos-arm.deb
+Size: 222600
+MD5sum: 3e7c3a83563cdadeac438452b431e52b
+Description: BgVideo can reenable the native background audio playback function of videos on iOS 6.x which is supported by Quicktime. No configuration is needed.  You just need tap the "play" button in multitasking bar just like what you did in the past. Background Youtube playback is back. Videos in other websites which are played by Quicktime are also supported.
+Name: BgVideo
+Author: BYA Repository <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=bgvideo
+
+Package: com.hackyouriphone.copyvideourl
+Version: 0.0.1-7+debug
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.hackyouriphone.copyvideourl_0.0.1-7+debug_iphoneos-arm.deb
+Size: 4718
+MD5sum: ecf839bcb12328e55e62a3c730f77b06
+Description: An awesome MobileSubstrate tweak!
+Name: CopyVideoURL
+Author: CreatureSurvive <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=copyvideourl
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=copyvideourl
+
+Package: com.hackyouriphone.ifile
+Version: 2.2.0-1
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/com.hackyouriphone.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9747038
+MD5sum: 289aee1633c592fc93254c667a167481
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Name: iFile
+Author: Carsten Heinelt <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ifile
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ifile
+
+Package: com.hackyouriphone.videopane
+Version: 2.0.6k
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5001), firmware (>= 5.0), preferenceloader (>= 2.2.2), libactivator (>= 1.9.12), applist (>= 1.5.9), com.rpetrich.rocketbootstrap (>= 1.0.5) | firmware (<< 7.0)
+Conflicts: com.joemerlino.videopanefix
+Architecture: iphoneos-arm
+Filename: ./debs/com.hackyouriphone.videopane_2.0.6k_iphoneos-arm.deb
+Size: 357072
+MD5sum: 444d48112fd9a86e7c82b7667cb3a12f
+Description: Picture-in-picture for video; multitask while playing movies
+Name: VideoPane
+Author: Ryan Petrich <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=videopane
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=videopane
+
+Package: com.isecpartners.nabla.sslkillswitch
+Version: 0.6-1
+Section: Tweaks
+Maintainer: Alban Diquet <alban@isecpartners.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.isecpartners.nabla.sslkillswitch_0.6-1_iphoneos-arm.deb
+Size: 6932
+Installed-Size: 76
+MD5sum: 6cce8560d4951adffd2519d4469c45ee
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS Apps.
+Name: iOS SSL Kill Switch
+Author: Alban Diquet <alban@isecpartners.com>
+
+Package: com.julioverne.cydown
+Version: 6.8.8
+Section: Tweaks
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.cydown_6.8.8_iphoneos-arm.deb
+Size: 1022462
+MD5sum: a755b483a40400466f828ec1addd6142
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: com.julioverne.cydown
+Version: 6.9.7
+Section: Tweaks
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Size: 898776
+MD5sum: 3cdb7b8a0924425910d1f95a813c82e9
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: com.julioverne.cydown.8
+Version: 6.8.8
+Section: Tweaks
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.cydown.8_6.8.8_iphoneos-arm.deb
+Size: 1460024
+MD5sum: 9010a323663bb0ad48cb18f66cd028db
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown iOS 8
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: com.julioverne.ext3nder-installer
+Version: 021a
+Section: Utilities
+Maintainer: Julio
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Depends: mobilesubstrate
+Conflicts: com.julioverne.ext3nder
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.ext3nder-installer_021a_iphoneos-arm.deb
+Size: 517614
+MD5sum: 97410eb497efc82931531097c071311f
+Description: Cydia Extender Installer With Extra Features
+Name: Ext3nder Installer
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
+Homepage: http://twitter.com/ijulioverne
+
+Package: com.julioverne.ext3nder-installer
+Version: 022b
+Section: Utilities
+Maintainer: Julio
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Depends: mobilesubstrate
+Conflicts: com.julioverne.ext3nder
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.ext3nder-installer_022b_iphoneos-arm.deb
+Size: 1947692
+MD5sum: c125341ea7283265364d6755d696bc5b
+Description: Cydia Extender Installer With Extra Features
+Name: Ext3nder Installer
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
+Homepage: http://twitter.com/ijulioverne
+
+Package: com.julioverne.fastuprepo
+Version: 0.0~beta4
+Section: Tweaks
+Maintainer: Julio
+Depends: cydia (>> 1.1.27), mobilesubstrate, cy+cpu.arm64
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.fastuprepo_0.0~beta4_iphoneos-arm.deb
+Size: 7810
+MD5sum: b8179fa786e3a990c47b009a0230c90e
+Description: SpeedUp Cydia Update Sources by blocking download translation.
+Name: fastUpRepo
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.fastuprepo
+Homepage: http://twitter.com/ijulioverne
+
+Package: com.julioverne.goodwifi
+Version: 0.0~beta4
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.goodwifi_0.0~beta4_iphoneos-arm.deb
+Size: 54976
+MD5sum: 3866bac5a02349a472a818f7180e28ca
+Description: Better WiFi Preferences
+Name: GoodWiFi
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+
+Package: com.julioverne.goodwifi
+Version: 0.0~beta5
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.goodwifi_0.0~beta5_iphoneos-arm.deb
+Size: 128608
+MD5sum: 0ae4fff284acdb6e398819f26b4f78ec
+Description: Better WiFi Preferences
+Name: GoodWiFi
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+
+Package: com.julioverne.heysiri
+Version: 0.0~beta6
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.heysiri_0.0~beta6_iphoneos-arm.deb
+Size: 103384
+MD5sum: c05b579d8b4108a8b921d427e5fe09b7
+Description: Hey Siri While Not Charging
+Name: HeySiri
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.heysiri
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/HeySiriSettings.bundle/icon@2x.png
+
+Package: com.julioverne.musilyric
+Version: 0.5~beta6a
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.musilyric_0.5~beta6a_iphoneos-arm.deb
+Size: 27596
+MD5sum: 3c728df82520315f9692afb84f73a354
+Description: Best Lyrics Music
+Name: MusiLyric
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.musilyric
+Homepage: http://twitter.com/ijulioverne
+
+Package: com.julioverne.pipenabler
+Version: 0.3
+Section: Tweaks
+Maintainer: Julio
+Depends: firmware (>= 9.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.pipenabler_0.3_iphoneos-arm.deb
+Size: 93774
+MD5sum: 881d4d7ef387e88abfff2e2e78662d01
+Description: Enabler Picture In Picture Feature
+Name: PIPEnabler
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.pipenabler
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/PIPEnablerSettings.bundle/icon@2x.png
+
+Package: com.julioverne.pipsize
+Version: 0.0~beta1
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.julioverne.pipsize_0.0~beta1_iphoneos-arm.deb
+Size: 23122
+MD5sum: 57dcf41cd9424096ecab42f308125f9e
+Description: Resize Picture In Picture in any size
+Name: PIPSize
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.pipsize
+Homepage: http://twitter.com/ijulioverne
+
+Package: com.kael.inapp
+Version: 0.0.1-2+debug
+Section: Tweaks
+Maintainer: System Administrator
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/mryurg.deb
+Size: 2894
+Installed-Size: 120
+MD5sum: c141e59c8de5e743184946c7bb8c51a8
+Description: An awesome MobileSubstrate tweak!
+Name: InApp
+Author: System Administrator
+
+Package: com.laughingquoll.turkey
+Version: 0.0.1
+Section: Tweaks
+Maintainer: LaughingQuoll
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.laughingquoll.turkey_0.0.1_iphoneos-arm.deb
+Size: 11028
+Installed-Size: 104
+MD5sum: f8903e58f2f417cc151aa96bfd5bf90c
+Description: An awesome MobileSubstrate tweak!
+Name: Turkey
+Author: LaughingQuoll
+
+Package: com.modmyi.minecraftfontios8
+Version: 2.0
+Priority: extra
+Section: Fonts (BytaFont 2)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: com.bytafont.bytafont2
+Architecture: iphoneos-arm
+Filename: ./debs/com.modmyi.minecraftfontios8_2.0_iphoneos-arm.deb
+Size: 18370616
+MD5sum: 19ecebb8887ce20cddc6db761a90629c
+Description: Minecraft Font iOS 8
+Name: Minecraft Font iOS 8
+Author: Garrett Chisholm <garrettchisholm@yahoo.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://modmyi.com/info/minecraftfontios8.d.php
+Homepage: http://modmyi.com/info/minecraftfontios8.php
+
+Package: com.officialscheduler.mterminal
+Version: 1.4-5
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0), system-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/com.officialscheduler.mterminal_1.4-5_iphoneos-arm.deb
+Size: 107204
+Installed-Size: 325
+MD5sum: ca89ef2a021eb532ab64a3f584d4c9d4
+Description: A MobileTerminal fork
+Name: MTerminal
+Author: lordscotland <admin@officialscheduler.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Icon: file:///Applications/MTerminal.app/Icon.png
+
+Package: com.repo.Austcool.com.filza64bit
+Version: 3.5.2-4k
+Section: Utilities
+Maintainer: Austcool Walker <0ajwalker@gmail.com>
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
+Architecture: iphoneos-arm
+Filename: ./debs/com.repo.Austcool.com.filza64bit_3.5.2-4k_iphoneos-arm.deb
+Size: 7010804
+MD5sum: 202b72ef93404384085b35eb19ee5307
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+Depiction: https://repo.xarold.com/depiction.php?id=filza64bit
+
+Package: com.saurik.afc2d
+Version: 1.2
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Architecture: iphoneos-arm
+Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+Description: allow full file-system access over USB
+Name: Apple File Conduit "2"
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+
+Package: com.thireus.hostscleaner
+Version: 1.4.1
+Priority: standard
+Section: Security
+Maintainer: Thireus <repo@thireus.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: sed, grep, coreutils
+Conflicts: com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.thireus.untrustedhostsblocker9, com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockermega, com.reddestdream.minimalhostsblocker, com.sukarodo.notavoke, com.ceadd.blockyou12, com.nathanaccidentally.systemhostsblocker, com.thireus.untrustedhostsblockermegaipv4, com.ichitaso.removeadstoggle, com.ichitaso.removeads, com.spinward.hostsfileflipswitch, com.clezz.restorehosts, ro.iphonews.adblock, com.rishanan.hostadblocker, miktr.switch.adblocker, miktr.switch.adblocker2, com.nathanaccidentally.mdnsflush
+Architecture: iphoneos-arm
+Filename: ./debs/com.thireus.hostscleaner_1.4.1_iphoneos-arm.deb
+Size: 2716
+Installed-Size: 0
+MD5sum: 3c0cc3e7ccc110fc5ae634b640fe5db4
+Description: Restore your original /etc/hosts file
+ INSTALL IT, THEN REMOVE IT. Hosts Cleaner is a script that resets your /etc/hosts file to its original state (default localhost entries). It also removes your /etc/hosts.lmb (LetMeBlock) symlink or file. DO NOT UPGRADE this package.
+ .
+ Bear in mind this package will remove all non-original Apple hosts entries (ocsp.apple.com is one of them).
+ .
+ It is advised to install this package before installing Untrusted Hosts Blocker to make sure your hosts file is clean and that other ad blocker tweaks won't interfere with it. This tweak can also help people who may have a corrupted or heavy hosts file (noticeable behaviours: connection issues or slow device).
+ .
+ You can also install this package to clean your /etc/hosts file. But if you have ad blockers installed such as 'Untrusted Hosts Blocker', you will simply have to reinstall them to add the blocked host entries back to your /etc/hosts file.
+ .
+ When installed: This package creates a backup of your current /etc/hosts file in /etc/hosts.thireus.hostscleaner.bak.
+ .
+ When uninstalled: This package only removes the backup file, understand that it will not restore your previous /etc/hosts. If you want to restore your previous /etc/hosts, do it manually with the backup file before uninstalling this package.
+ .
+ IMPORTANT: Once you are done fixing your hosts files please remove this package. DO NOT KEEP THIS PACKAGE. DO NOT UPGRADE this package (or it will flush your hosts file again)!
+ .
+ UPDATED: v1.0.4 (20/08/2016) - Original Apple hosts entries cleanup + host block count fixed.
+ UPDATED: v1.1.0 (17/03/2019) - Compatibility with MUHB.
+ UPDATED: v1.1.1 (17/03/2019) - killall mDNSResponder and killall discoveryd implemented.
+ UPDATED: v1.1.2 (17/03/2019) - Minor improvements.
+ UPDATED: v1.1.3 (17/03/2019) - Utilises force kill instead of soft kill for both mDNSResponder and discoveryd. Minor description changes.
+ UPDATED: v1.2.0 (18/03/2019) - Compatibility with LetMeBlock 0.0.3 and higher.
+ UPDATED: v1.2.1 (18/03/2019) - Added EUHB to the list of conflicts.
+ UPDATED: v1.3.0 (23/03/2019) - Added several known bad adblockers to the list of conflicts.
+ UPDATED: v1.3.1 (25/03/2019) - Added MUHB IPv4 Only conflict.
+ UPDATED: v1.4.0 (25/03/2019) - Added more bad adblockers and adblocker flipswitches to the list of conflicts.
+ UPDATED: v1.4.1 (28/03/2019) - Added more bad tweaks to the list of conflicts.
+Name: Hosts Cleaner
+Author: Thireus <repo@thireus.com>
+Homepage: https://repo.thireus.com
+
+Package: com.thireus.untrustedhostsblocker
+Version: 4.2.1
+Priority: standard
+Section: Security
+Maintainer: Thireus <repo@thireus.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 9.0), sed, grep, coreutils, shell-cmds
+Conflicts: com.thireus.untrustedhostsblockerlight, com.thireus.hostscleaner, com.reddestdream.minimalhostsblocker, com.sukarodo.notavoke, com.ceadd.blockyou12, com.nathanaccidentally.systemhostsblocker, com.ichitaso.removeadstoggle, com.ichitaso.removeads, com.spinward.hostsfileflipswitch, com.clezz.restorehosts, ro.iphonews.adblock, com.rishanan.hostadblocker, miktr.switch.adblocker, miktr.switch.adblocker2, com.nathanaccidentally.mdnsflush
+Architecture: iphoneos-arm
+Filename: ./debs/com.thireus.untrustedhostsblocker_4.2.1_iphoneos-arm.deb
+Size: 890996
+Installed-Size: 1826
+MD5sum: 95cb5c03a3d1f2a1a6cf37bddc29448c
+Description: Say goodbye to tracking, spies, intrusive ads and untrusted hosts.
+ Blocks more than 63,000 blacklisted hosts! This is not just a basic adblocker but a powerful firewall for your privacy and security.
+ This tweak is compatible with iOS 3, 4, 5, 6, 7 and 8. If you are looking for iOS 9, 10, 11, 12 and higher, please refer to the tweak named "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)".
+ .
+ This tweak's main purpose is to block a maximum of third-party hosts used by your applications that have been identified as collecting personal and confidential data (location, contacts, UDID, etc.) for commercial, tracking or advertising purpose.
+ .
+ !!! If this tweak slows down your device or if you encounter connection issues, switch to "Light Untrusted Hosts Blocker" !!!
+ .
+ If your device Internet is not working anymore after installing this tweak, it could mean your /etc/hosts file is too big. If that happens, please uninstall this tweak, then install "Hosts Cleaner" and reinstall this tweak.
+ .
+ This tweak will not work on networks that have IPv6 enabled (i.e. T-Mobile). If you wish to disable IPv6 on cellular data, follow this tutorial: https://goo.gl/rYRwLG
+ .
+ This package will add all blacklisted hosts to your /etc/hosts file. It will NOT overwrite any custom hosts file you may have (if you already have custom entries in your hosts file, they will remain untouched)!
+ .
+ If you are unhappy with this tweak, you can uninstall this package. It will ONLY remove the installed entries by the tweak and leave untouched any other entries you may have added manually to the hosts file. But make sure to wait until the end of the uninstallation process. In case your hosts file is broken (this should never happen), the installation or uninstallation script will repair it.
+ .
+ Please only send me blocking requests for intrusive hosts. I will no longer consider requests for harmless advertisement hosts. Sorry.
+ .
+ If you are looking for a powerful adblocker, you can combine this tweak with AdBlocker (BigBoss repo) by Yllier. Do not combine this tweak with other hosts blocker tweaks, which may interfere with your customised /etc/hosts file.
+ .
+ UPDATED: v3.6.0 (21/08/2016) - About 8k new hosts.
+ UPDATED: v4.0.0 (16/03/2019) - More hosts. Added MHB hosts. Cleaning of previous hosts. New tweak name. Updated tweak description. Updated install and remove scripts.
+ UPDATED: v4.0.1 (17/03/2019) - Fixed major issues with install script. Minor changes in the description.
+ UPDATED: v4.0.2 (17/03/2019) - Fixed minor issue with install script.
+ UPDATED: v4.0.3 (17/03/2019) - Added conflict control with "Hosts Cleaner".
+ UPDATED: v4.1.0 (24/03/2019) - Added more hosts (abpvn hosts). Improved install/remove log data. Cleanup. Updated description.
+ UPDATED: v4.1.1 (25/03/2019) - Updated description (note about IPv6 and T-Mobile).
+ UPDATED: v4.2.0 (28/03/2019) - Added conflict to many other bad tweaks.
+ UPDATED: v4.2.1 (18/04/2019) - Fix for iMessage activation issue. Removed ocsp.apple.com (let the JB handle this bit).
+Name: UHB - iOS 3/4/5/6/7/8 (Untrusted Hosts Blocker)
+Author: Thireus <repo@thireus.com>
+Homepage: https://repo.thireus.com
+
+Package: com.thireus.untrustedhostsblocker9
+Version: 1.7.1
+Priority: standard
+Section: Security
+Maintainer: Thireus <repo@thireus.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 9.0), sed, grep, coreutils, shell-cmds
+Conflicts: com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.thireus.hostscleaner, com.reddestdream.minimalhostsblocker, com.sukarodo.notavoke, com.ceadd.blockyou12, com.nathanaccidentally.systemhostsblocker, com.ichitaso.removeadstoggle, com.ichitaso.removeads, com.spinward.hostsfileflipswitch, com.clezz.restorehosts, ro.iphonews.adblock, com.rishanan.hostadblocker, miktr.switch.adblocker, miktr.switch.adblocker2, com.nathanaccidentally.mdnsflush
+Architecture: iphoneos-arm
+Filename: ./debs/com.thireus.untrustedhostsblocker9_1.7.1_iphoneos-arm.deb
+Size: 54350
+Installed-Size: 69
+MD5sum: f5471d1f4abce2545e38acb66e253a28
+Description: READ THE TWEAK DESCRIPTION/FAQ PAGE! Say goodbye to tracking, spies, intrusive ads and untrusted hosts. IPv4 support only.
+ Blocks about 3,000 blacklisted hosts!
+ .
+ This tweak's main goal is to block a maximum of third-party hosts used by your applications that have been identified as collecting personal and confidential data (location, contacts, UDID, etc.) for commercial, tracking or advertising purpose.
+ .
+ This package will add all blacklisted hosts to your /etc/hosts file. It will NOT overwrite your custom hosts file (if you already have custom entries in your hosts file, they will remain untouched)!
+ .
+ If you are unhappy with this tweak you can uninstall this package. It will ONLY remove the installed entries by the tweak and leave untouched any other entries you may have added manually to the hosts file. But make sure to wait until the end of the uninstallation process. In case your hosts file is broken (should never happen), the installation or uninstallation script will repair it.
+ .
+ If your device Internet is not working anymore after installing this tweak, it could mean your /etc/hosts file is too big for mDNSResponder. If that happens (it shouldn't, read FAQ 5.), please uninstall this tweak, then install "Hosts Cleaner" and reinstall this tweak.
+ .
+ Avoid combining this tweak with other hosts blocker tweaks as they may interfere with your customised /etc/hosts file.
+ .
+ IMPORTANT: Due to /etc/hosts memory limitations of mDNSResponder since iOS 9, this version mainly focuses on blocking hosts that can impact your privacy or security. Some of the most common advertisement hosts are still blocked by this version but a lot had to be removed from the previous UHB versions. Therefore, I cannot guarantee that you won't see any ads at all.
+ .
+ This tweak will not work on networks that have IPv6 enabled (i.e. T-Mobile). If you wish to disable IPv6 on cellular data, follow this tutorial: https://goo.gl/rYRwLG
+ .
+ Please only send me blocking requests for intrusive hosts. I will no longer consider requests for harmless advertisement hosts. Sorry.
+ .
+ FAQ:
+ .
+ 1. Many people try to install the "Untrusted Hosts Blocker" version instead of "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)". The name of the tweak is "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)" compatible with iOS 9/10/11 and iOS 12. The old version "Untrusted Hosts Blocker" is compatible with iOS 8 and below only. Just browse my repository to find the right package.
+ .
+ 2. Still seeing ads? I'm sorry, but there isn't much I can do about it. If you're using a VPN or a Proxy, entries in /etc/hosts will most likely be ignored, so you will see ads.
+ .
+ 3. You might need to reboot your device after installation, especially if you notice the tweak isn't functionning properly.
+ .
+ 4. This tweak has a very good chance to be already compatible with unrealeased iOS versions (i.e. iOS 13, iOS 14, iOS 15, etc.). Just give it a try!
+ .
+ 5. Can't install the package because install fails with an error message stating the hosts file is too heavy? There is a limit to the number of hosts mDNSResponder can handle. Passed that limit your DNS resolver would stop functioning (no Internet access, device becoming hot because 100% CPU usage, etc.). Uninstall your other "ad-blockers" or flush your /etc/hosts file with "Hosts Cleaner".
+ .
+ 6. Does this tweak impact my battery life? No.
+ .
+ 7. If the install or removal process seems stuck and says, "PLEASE WAIT!!!!! (removal can take up to 3 minutes)", you definitely have to wait 3 minutes. If you decide to kill Cydia for some reason that will most likely corrupt your /etc/hosts file, in which case you will have to install "Hosts Cleaner" to revert it back to normal.
+ .
+ 8. Your device runs hot after install? Websites don't load? Install "Hosts Cleaner" to clear your /etc/hosts file (revert it back to Apple stock version) and reinstall Untrusted Hosts Blocker package(s).
+ .
+ 9. Something wrong happened? No panic, no need to restore your device. There are often easy and straightforward solutions to any problems. Just message me to talk about it.
+ .
+ 10. How can I check my installation was successful? Try to access with Safari: www.obdev.at (it is one of the many hosts that UHB blocks). If you cannot access this website (Safari displays a message saying "Safari cannot open the page"), congratulations UHB is successfully installed.
+ .
+ 11. Why is UHB not working when I am using mobile data (3G/4G/LTE)? Some mobile data ISPs will use proxies, DNS resolution can happen through a proxy and bypass /etc/hosts. Some ISPs also use IPv6 networking, in this case you can install the following tweak: "Mega UHB IPv4+6 - iOS 9/10/11/12 - MUHB IPv4+6 (Mega Untrusted Hosts Blocker IPv4 and IPv6)" available on my repo. If you want to verify if this is the reason why UHB is not working for your device: remove your SIM card or disable mobile data completely, use WiFi only and reboot your device (that will clear the DNS cache), then try to access with Safari www.obdev.at (it is one of the many hosts that UHB blocks). If you cannot access this website (Safari displays a message saying "Safari cannot open the page"), congratulations UHB is successfully installed. Note that "MUHB IPv4+6" can consume a lot of memory, so if you'd still like to stick with UHB you can follow this tutorial to disable IPv6: https://goo.gl/rYRwLG. If you are a T-Mobile users who wish to stick with UHB you can reach out to /u/aakashkk on Reddit for his solution: "TMUS IPv4v6 Data.mobileconfig" (for your security, open this file with a text editor before installing it on your device, and make sure it does not contain any IPs, URLs or DNS servers anywhere. MD5: a131d6430eb82795cd30f87c35d6edfb; SHA: 3806b21068e539f01dda15f0f2dda78356e6fdea
+ .
+ 12. The first installation hangs, what should I do? It may happen that your first installation of UHB stays stuck. Wait 2 or 3 minutes. If it is still stuck, kill Cydia and install "Hosts Cleaner", then reinstall UHB.
+ .
+ 13. I have installed UHB on iOS 12, but ads are not blocked, why? Make sure to use the latest unc0ver version (v3.0.0~b33 or higher). A tweak called LetMeBlock is responsible for making hosts blocking work on iOS 12. Make sure this tweak is functionning properly.
+ .
+ 14. Is it compatible with iOS 12? Yes.
+ .
+ 15. I cannot access www.obdev.at (Safari displays a message saying "Safari cannot open the page"), so it means UHB is working. But I can still see some ads, why? Because UHB blocks certain hostnames known to serve ads, not all. This tweak is not a very sophisticated adblocker. If you wish to block ads more efficiently, you can use Brave.
+ .
+ 16. I am on iOS 12. I have enabled tweaks on unc0ver. I am using unc0ver b33 or higher version. I have tried to reboot (not ldrestart, REBOOT). But it seems UHB is still not working, why? Most likely because the LetMeBlock tweak is not loaded properly: Make sure you enable loading both tweaks and daemons! Or maybe it could be an issue with your Jailbreak not loading LetMeBlock properly. If http://ocsp.apple.com (OCSP!!!) on Safari displays "Not Found on Accelerator", then LetMeBlock is NOT working properly (I REPEAT AGAIN: IF "Not Found on Accelerator" DISPLAYED, THEN IT MEANS LetMeBlock NOT WORKING!!!)! When LetMeBlock does its job properly, Safari will display a message saying "Safari cannot open the page". Please raise this issue to @PoomSmart & @Pwn20wnd! In any case, you NEED LetMeBlock to work for your device!!! (FYI ocsp.apple.com is always automatically injected in /etc/hosts by the Jailbreak, this is a host that always needs to be blocked to prevent iOS updates!)
+ .
+ 17. This tweak will not work if your network uses IPv6 instead of IPv4. Adding IPv6 support would mean doubling the number of blocked hosts, which is currently not an option. You should give a try to "Mega UHB IPv4+6 - iOS 9/10/11/12 - MUHB IPv4+6 (Mega Untrusted Hosts Blocker IPv4 and IPv6)" instead which supports IPv6 or follow this tutorial to disable IPv6: https://goo.gl/rYRwLG
+ .
+ 18. Where can I read more about the mDNSResolver limit? 1MB hardcoded for iOS devices.
+ .
+ 19. I'm on iOS 12 and LetMeBlock does not appear to do its job, what else can I try? Try to kill mDNSResponder manually: "killall -9 mDNSResponder; killall -9 mDNSResponderHelper".
+ .
+ 20. I still see ads on Facebook, Youtube, Instagram, Twitter, etc. Why? Some non-intrusive ads cannot be blocked with /etc/hosts. This is the drawback of this blocking technique. The main goal of this tweak is to block a maximum of hosts that are known to leak data, invade your privacy, serve malware, etc. Certain ads cannot be blocked easily, for example Youtube or Twitter ads or other ads in-game. This applies especially to games or other apps that strongly base their revenues on advertisements and/or data collection. Apps of this type will have checkpoints in place to detect if users have been served with the in-app ads or not, and if they haven't they will prevent the user from navigating through the app until the ad is displayed properly. You can attempt to bypass the security measures in place, which would mean "crack" or "patch" the application, for this you'd need custom tweaks, which take time to create and time to keep up to date. Also you can't be sure those tweaks won't do anything nasty in the background such as stealing your app credentials or session tokens...
+ .
+ 21. Some of my "free" applications don't work anymore, why? Some of the malicious hosts UHB blocks might be used in existing AppStore apps... and some apps enforce checkpoints to verify that these malicious hosts have been loaded properly when you navigate through them. Blocking these hosts would often mean preventing the checkpoints to be reached, which would prevent you from using these applications properly. Those "free" apps make a living on your privacy by collecting confidential or sensitive data while you're using them. Maybe you should simply consider uninstalling those apps. Or, if you are happy with data collection, just get rid of UHB.
+ .
+ 22. Can you make a switch (flipswitch) to activate/deactivate it? No. And I strongly discourage you to use any. They'll mess with your /etc/hosts file and you risk losing DNS resolving, which could lead to losing your jailbreak. UHB should be privileged instead of the "free" games that force you to display ads. If you are not convinced, then just uninstall UHB this tweak isn't for you.
+ .
+ 23. I want your tweak to block a lot more hosts, what can I do? You can try the new tweak called "Mega UHB" (Mega Untrusted Hosts Blocker)" which blocks a lot more hosts.
+ .
+ 24. You haven't upgraded this tweak in a while. Does it mean it is outdated? No. It simply means this tweak is working just fine and there is no need to update it at the moment.
+ .
+ 25. I'm on iOS 12, Google Maps and Facebook stopped working, why? Certain applications will crash mDNSResponder, LetMeBlock will attempt to restart and patch mDNSResponder when this occurs. However, there are still known stability issues. Please make sure to upgrade LetMeBlock to the latest version for added stability (Repo: https://poomsmart.github.io/repo/).
+ .
+ 26. How do I know if my network uses IPv6? You can use the following service to verify if IPv6 is detected: https://test-ipv6.com/
+ .
+ 27. Why does your tweak ask to uninstall other tweaks? These are either bad tweaks or tweaks that are known to cause issues with my tweak, you should not use them.
+ .
+ UPDATED: v1.3.0 (30/03/2018) - Official support for iOS 11.
+ UPDATED: v1.4.0 (24/07/2018) - The new install script will try to prevent installations that would lead to a /etc/hosts file size that iOS can’t handle (install will fail if the size limit is reached and will ask the user to clear the hosts file). For reference, this is a known issue that break iOS domain name resolving once the hosts file reaches a certain size.
+ UPDATED: v1.5.0 (16/03/2019) - Official support for iOS 12. "Minimal Hosts Blocker" hosts moved from "Experimental UHB (Untrusted Hosts Blocker) - EUHB" to this package. Few more hosts (user requests) moved from EUHB to UHB. FAQ added. Youtube history issue resolved. Name changed to "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)".
+ UPDATED: v1.5.1 (16/03/2019) - Minor corrections (some hosts cleaned). Fixed the compatibility issue with some older Jailbreaks (deb xz compression not being supported). Updated FAQ to include note for T-Mobile users.
+ UPDATED: v1.5.2 (17/03/2019) - Minor correction in the tweak description. Added points 18 and 19 in the FAQ.
+ UPDATED: v1.5.3 (17/03/2019) - Added points 20, 21 and 22 in the FAQ + minor corrections in the FAQ.
+ UPDATED: v1.5.4 (17/03/2019) - Added conflict control with "Hosts Cleaner". Minor fix in install script.
+ UPDATED: v1.5.5 (17/03/2019) - Fixed issue for iOS 12 where mDNSResponder wouldn't load the /etc/hosts after installation: killall mDNSResponder implemented.
+ UPDATED: v1.5.6 (17/03/2019) - Minor corrections in the FAQ.
+ UPDATED: v1.5.7 (18/03/2019) - Minor corrections in the FAQ. Added point 23 in the FAQ.
+ UPDATED: v1.5.8 (20/03/2019) - Fixed upgrade issue for compatibility with LetMeBlock (mDNSResponderHelper needs to be killed along with mDNSResponder). Users may have experienced a loss of connectivity which required a reboot (only if MUHB was installed).
+ UPDATED: v1.5.9 (20/03/2019) - Force kill is now required for both mDNSResponderHelper and mDNSResponder. Killing order reversed.
+ UPDATED: v1.5.10 (20/03/2019) - Updated FAQ.
+ UPDATED: v1.5.11 (20/03/2019) - Added point 24 to the FAQ. Minor correction in the FAQ.
+ UPDATED: v1.6.0 (23/03/2019) - Improved install/remove log data. Added point 25 in the FAQ. Updated points 11 and 17. Cleanup. Minor additions in the description.
+ UPDATED: v1.6.1 (23/03/2019) - Fixed an issue with the installation detecting experimental hosts instead of its own hosts.
+ UPDATED: v1.6.2 (23/03/2019) - Minor changes in the description.
+ UPDATED: v1.6.3 (24/03/2019) - Increased hosts line limit to 3550 entries.
+ UPDATED: v1.6.4 (25/03/2019) - Fixed typo in installation logs. Updated description. Updated FAQ.
+ UPDATED: v1.6.5 (25/03/2019) - New mDNSResponderHelper killing technique, this should fix issues with LetMeBlock not working after install/upgrade.
+ UPDATED: v1.7.0 (28/03/2019) - Added points 26 and 27 to the FAQ. Added conflict to many other bad tweaks.
+ UPDATED: v1.7.1 (18/04/2019) - Removed ocsp.apple.com (let the JB handle this bit).
+Name: UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)
+Author: Thireus <repo@thireus.com>
+Homepage: https://repo.thireus.com
+
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-10
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Architecture: iphoneos-arm
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-10_iphoneos-arm.deb
+Size: 19938260
+MD5sum: 3cd488c6da13d9de9eaac7f67e1ada0b
+Description: shared tools for unlimapps tweaks
+Name: uasharedtools
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+
+Package: com.unlimapps.uaupdatetools
+Version: 1.0r-52
+Priority: optional
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.0r-15)
+Conflicts: it.marcocristalli.asupdatehider
+Architecture: iphoneos-arm
+Filename: ./debs/com.unlimapps.uaupdatetools_1.0r-52_iphoneos-arm.deb
+Size: 870242
+MD5sum: f65ad34a3237343eac3878b579438066
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Name: App Admin
+Author: UnlimApps Inc.
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+
+Package: com.unlimapps.uaupdatetools
+Version: 1.0r-71
+Priority: optional
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.1r-47)
+Conflicts: it.marcocristalli.asupdatehider
+Architecture: iphoneos-arm
+Filename: ./debs/com.unlimapps.uaupdatetools_1.0r-71_iphoneos-arm.deb
+Size: 595624
+MD5sum: cffafbc0dbcf902a573562462a276735
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Name: App Admin
+Author: UnlimApps Inc.
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+
+Package: com.yourepo.techprohacker.betternethack
+Version: 3.3.1-1
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/com.yourepo.techprohacker.betternethack_3.3.1-1_iphoneos-arm.deb
+Size: 3298
+MD5sum: 5705d583f05fc089703359a1d4ebce40
+Description: Betternet Premium Hack - this hack is going to give you the features listed below
+Name: Betternet Premium Hack
+Author: Techpro Hacker
+
+Package: me.qusic.networklist
+Version: 0.4.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./debs/me.qusic.networklist_0.4.1_iphoneos-arm.deb
+Size: 19480
+Installed-Size: 165
+MD5sum: fe0659ec65e91624c41f691950d14a2e
+Description: view saved WiFi passwords in Settings
+Name: NetworkList
+Author: Qusic <hi@qusic.me>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=networklistDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=networklistDp
+
+Package: net.angelxwind.appsyncunified
+Version: 104.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.appsyncunified_104.0_iphoneos-arm.deb
+Size: 59144
+Installed-Size: 732
+MD5sum: 4d4f867de80c03237897a0396d1bd90b
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Homepage: https://cydia.akemi.ai/
+
+Package: net.angelxwind.appsyncunified
+Version: 31.1
+Section: Tweaks
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 11.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.appsyncunified_31.1_iphoneos-arm.deb
+Size: 30362
+Installed-Size: 256
+MD5sum: 3d066c0024bacf35a705da8907a11e1a
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Homepage: https://cydia.angelxwind.net/
+
+Package: net.angelxwind.appsyncunified
+Version: 6.0~b1
+Section: Tweaks
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.appsyncunified_6.0-b1_iphoneos-arm.deb
+Size: 28060
+Installed-Size: 364
+MD5sum: 08ebf3470673bd5297e8f15e1d8c35da
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
+Name: AppSync Unified
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Homepage: http://cydia.angelxwind.net/
+
+Package: net.angelxwind.appsyncunified
+Version: 6.0~b1
+Section: Tweaks
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.appsyncunified_6.0~b1_iphoneos-arm.deb
+Size: 28060
+Installed-Size: 364
+MD5sum: 08ebf3470673bd5297e8f15e1d8c35da
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
+Name: AppSync Unified
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Homepage: http://cydia.angelxwind.net/
+
+Package: net.angelxwind.appsyncunified
+Version: 70.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), firmware (<= 13.3.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, science.xnu.substitute
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: ./debs/nodelete-net.angelxwind.appsyncunified.deb
+Size: 41990
+Installed-Size: 496
+MD5sum: e5e3bdd13d5389a1463525010c568a32
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Homepage: https://cydia.akemi.ai/
+
+Package: net.angelxwind.karenprefs
+Version: 1.5
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.karenprefs_1.5_iphoneos-arm.deb
+Size: 21448
+Installed-Size: 356
+MD5sum: 018caee611c4e2fa9b1255d1647780e2
+Description: library for developer preference bundles
+Name: KarenPrefs
+Author: Karen/Akemi <angelXwind@angelxwind.net>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=karenprefsDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=karenprefsDp
+
+Package: net.angelxwind.sandboxpathfixer
+Version: 1.5
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.2), net.angelxwind.karenprefs, applist
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.sandboxpathfixer_1.5_iphoneos-arm.deb
+Size: 23204
+Installed-Size: 696
+MD5sum: 191c0f7fc3817119598160b1c3738331
+Description: Fixes sandbox paths for certain apps that are broken in iOS 8.0 and above
+Name: Sandbox Path Fixer
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.sandboxpathfixer
+Homepage: https://cydia.akemi.ai/
+
+Package: net.angelxwind.stash841
+Version: 1.0
+Section: System
+Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.stash841_1.0_iphoneos-arm.deb
+Size: 1092
+MD5sum: 27910a32d5019d0a4fafd6efb6a4a1c1
+Description: Enables stashing on #etasonJB (iOS 8.4.1)
+Name: Stashing for #etasonJB (8.4.1)
+Author: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
+Homepage: https://cydia.angelxwind.net/
+
+Package: net.angelxwind.stash935fix
+Version: 1.0
+Section: System
+Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Depends: firmware (= 9.3.5)
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: ./debs/net.angelxwind.stash935fix_1.0_iphoneos-arm.deb
+Size: 1058
+MD5sum: 0abe5415d6251ea9a4e56e841426dbd2
+Description: Fixes stashing on Phœnix (iOS 9.3.5)
+Name: Stashing Fix for Phœnix (9.3.5)
+Author: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash935fix
+Homepage: https://cydia.angelxwind.net/
+
+Package: net.dylanaraps.neofetch
+Version: 3.0.1-3
+Section: Utilities
+Maintainer: Dylan Araps <dylan.araps@gmail.com>
+Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
+Architecture: iphoneos-arm
+Filename: ./debs/net.dylanaraps.neofetch_3.0.1-3_iphoneos-arm.deb
+Size: 61108
+MD5sum: 472e5dd70870ff983abc440c5f388a84
+Description: A fast, highly customizable system info script that supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd, MINIX, AIX and Windows (Cygwin/MSYS2/Windows 10 Linux subsystem)
+Name: Neofetch
+Author: Dylan Araps <dylan.araps@gmail.com>
+Homepage: http://dylanaraps.com/repo
+
+Package: net.dylanaraps.neofetch
+Version: 3.0.1-3
+Section: Utilities
+Maintainer: Dylan Araps <dylan.araps@gmail.com>
+Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
+Architecture: iphoneos-arm
+Filename: ./debs/net.dylanaraps.neofetch_iphoneos-arm.deb
+Size: 54580
+MD5sum: 55e0bb00a620caa9474441d9a195023f
+Description: A fast, highly customizable system info script that supports Linux, MacOS, iOS, BSD, Solaris, Android, Haiku, GNU Hurd, MINIX, AIX and Windows (Cygwin/MSYS2/Windows 10 Linux subsystem)
+Name: Neofetch
+Author: Dylan Araps <dylan.araps@gmail.com>
+Homepage: http://dylanaraps.com/repo
+
+Package: network-cmds
+Version: 307.0.1-7
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 9.0) | rtadvd
+Architecture: iphoneos-arm
+Filename: ./debs/network-cmds_307.0.1-7_iphoneos-arm.deb
+Size: 174224
+Installed-Size: 1168
+MD5sum: 47913f5bb56b4bb81093e31a4546be4f
+Description: arp, ifconfig, netstat, route, traceroute
+Name: Network Commands
+
+Package: openssh
+Version: 6.7p1-13
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Architecture: iphoneos-arm
+Filename: ./debs/openssh_6.7p1-13_iphoneos-arm.deb
+Size: 587678
+Installed-Size: 4736
+MD5sum: 51b3398d67bc3b861642c1eff23f9e42
+Description: secure remote access between machines
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/
+
+Package: openssl
+Version: 0.9.8zg-13
+Priority: standard
+Section: Security
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: ./debs/openssl_0.9.8zg-13_iphoneos-arm.deb
+Size: 1031128
+Installed-Size: 6164
+MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
+Package: org.coolstar.cctools
+Version: 877.5
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.cctools_877.5_iphoneos-arm.deb
+Size: 684180
+Installed-Size: 4322
+MD5sum: 72133f53ad21971af574cf413f67903b
+Description: tools to work with mach-o files
+Name: Darwin CC Tools
+Author: CoolStar <coolstarorganization@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+
+Package: org.coolstar.ld64
+Version: 253.3
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0)
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.ld64_253.3_iphoneos-arm.deb
+Size: 583988
+Installed-Size: 2712
+MD5sum: 167720e42979df124e4c65c86f5af86a
+Description: linker for building on iOS
+Name: LD64
+Author: CoolStar <coolstarorganization@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ld64Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ld64Dp
+
+Package: org.coolstar.stash933
+Version: 1.5.1
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 9.2), firmware (<= 9.3.5), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16)
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.stash933_1.5.1_iphoneos-arm.deb
+Size: 30418
+MD5sum: 81a9f4e9af445759c828beb9047a555e
+Description: Stash 3rd party components to make more space for them!
+Name: Stashing for iOS 9.2 - 9.3.5
+Author: CoolStar <coolstarorganization@gmail.com>
+
+Package: org.herf.flux
+Version: 0.9988
+Priority: standard
+Section: Tweaks
+Maintainer: Michael Herf <support@justgetflux.com>
+Depends: firmware (>= 5.0), firmware (<< 11), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/org.herf.flux_0.9988_iphoneos-arm.deb
+Size: 93244
+MD5sum: 4615bc52b0d6ef60a26d0f64154cfe40
+Description: warms colors at night to match indoor lighting
+Name: f.lux
+Author: F.lux Software LLC <support@justgetflux.com>
+Depiction: https://justgetflux.com/cydia/
+Homepage: https://justgetflux.com/
+Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
+
+Package: org.thebigboss.untetheredheysiri
+Version: 1.1.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), gsc.assistant, com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Filename: ./debs/org.thebigboss.untetheredheysiri_1.1.1_iphoneos-arm.deb
+Size: 17638
+Installed-Size: 269
+MD5sum: 786fc69cf3986cdbf07e956b050b4690
+Description: use "Hey, Siri" while untethered.
+Name: UntetheredHeySiri
+Author: Hamza Sood <hamza_sood+Cydia@me.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=untetheredheysiriDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=untetheredheysiriDp
+
+Package: org.tihmstar.phoenix-wallpaper
+Version: 1.0
+Priority: optional
+Section: Wallpaper
+Maintainer: tihmstar
+Architecture: iphoneos-arm
+Filename: ./debs/org.tihmstar.phoenix-wallpaper_1.0_iphoneos-arm.deb
+Size: 6760486
+MD5sum: 4d25c45b5727423312e407c291396b22
+Description: Fancy Phoenix Wallpaper
+	Fancy Phoenix Wallpaper
+	If you're jailbroken with phoenix, you need to install
+	this to get the full feeling of a 9.3.5 jailbreak
+Name: Phoenix Wallpaper
+Author: @AR72014, @K3yB0ardC4t
+
+Package: rtadvd
+Version: 307.0.1-2
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 9.0)
+Replaces: network-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/rtadvd_307.0.1-2_iphoneos-arm.deb
+Size: 21634
+Installed-Size: 112
+MD5sum: d815559d39a75c4b6f22537b683a17e0
+Description: "mistakes were made" (on iOS 8)
+Name: Router Advisement Daemon
+
+Package: uk.invoxiplaygames.discold
+Version: 0.1.1
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/discold-0.1.1.deb
+Size: 6582
+Installed-Size: 132
+MD5sum: a23fc764ecebdae21f1f6d87cce288ad
+Description: Fixes the Discord crash bug on iOS 7-9.
+Name: DiscOld [BETA]
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/discold.php
+
+Package: uuid
+Version: 1.6.0-2p
+Priority: important
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Filename: ./debs/uuid_1.6.0-2p_iphoneos-arm.deb
+Size: 38868
+Installed-Size: 140
+MD5sum: 16cf373a831b3a24386a430fbdc366ca
+Description: universally unique identifiers
+Name: UUID Generator
+
+Package: ws.austcool.newterm2
+Version: 2.0
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Architecture: iphoneos-arm
+Filename: ./debs/ws.austcool.newterm2_2.0_iphoneos-arm.deb
+Size: 1001254
+Installed-Size: 2192
+MD5sum: 54a95f504f971fb201007be500d964d8
+Description: A powerful terminal app for iOS
+Name: NewTerm 2 (iOS 7 – 11)
+Author: HASHBANG Productions <support@hbang.ws>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: https://cydia.hbang.ws/package/ws.hbang.newterm2/
+Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
+
+Package: ws.hbang.newterm
+Version: 1.0~beta1
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Pre-Depends: firmware (>= 5.0), dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/ws.hbang.newterm_1.0-beta1_iphoneos-arm.deb
+Size: 537900
+Installed-Size: 2340
+MD5sum: 7ad971db62c2cf2489b9ef4ff917a663
+Description: The standard terminal emulator with added awesome
+Name: NewTerm
+Author: HASHBANG Productions <support@hbang.ws>
+
+Package: xyz.N3RDP0RT4L.displayrecorder
+Version: 1.3.21k
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.9), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.displayrecorder_1.3.21k_iphoneos-arm.deb
+Size: 910120
+MD5sum: 66d9b6828dc0e4ad9caedb930a3886d9
+Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
+Name: Display Recorder
+Author: Ryan Petrich <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=displayrecorder
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=displayrecorder
+
+Package: xyz.N3RDP0RT4L.eraser
+Version: 1.0.3
+Section: System
+Maintainer: pwn20wnd
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.eraser_1.0.3_iphoneos-arm.deb
+Size: 198210
+MD5sum: d1a48a1ebd076f72801c603905970504
+Description: A Cydia Eraser replacement. The icon is made by Dennis Bednarz.
+Name: Remover
+Author: pwn20wnd & coolstarorg
+
+Package: xyz.N3RDP0RT4L.filza
+Version: 3.8.1-29
+Section: HYI - Tweaks
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.hackyouriphone.filza, com.hackyouriphone.filza64, com.tigisoftware.filza64bit, com.tigisoftware.filza
+Replaces: com.hackyouriphone.filza, com.hackyouriphone.filza64, com.tigisoftware.filza64bit, com.tigisoftware.filza
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.filza_3.8.1-29_iphoneos-arm.deb
+Size: 14086522
+MD5sum: c72e3da773170c330e4c00749820ed39
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Name: Filza File Manager
+Author: TIGI Software <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=filza
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=filza
+
+Package: xyz.N3RDP0RT4L.iwebboost
+Version: 1.0.0.1k
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Conflicts: net.joedj.nitrous
+Replaces: net.joedj.nitrous
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.iwebboost_1.0.0.1k_iphoneos-arm.deb
+Size: 138398
+MD5sum: fb8ef213a220117348401c29ba057b15
+Description: Faster JavaScript Webbrowsing for all Webcontent Apps like Facebook,Chrome,Dolphin,Opera,Flash Browser,SkyFireWebbrowserJava-NitroNitrous-EngineWebKitSpeedSafariPerformanceTweakSBSettingsSwitchNoCrack
+Name: iWebBoost
+Author: SpiritOfLogic <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=iwebboost
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=iwebboost
+
+Package: xyz.N3RDP0RT4L.mterminal
+Version: 1.4-5
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0), system-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.mterminal_1.4-5_iphoneos-arm.deb
+Size: 129062
+Installed-Size: 325
+MD5sum: 6f7c954fdc91188b31ce9f536ea0c102
+Description: A MobileTerminal fork
+Name: MTerminal
+Author: lordscotland <admin@officialscheduler.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Icon: file:///Applications/MTerminal.app/Icon.png
+
+Package: xyz.N3RDP0RT4L.newterm
+Version: 1.0~beta1
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Pre-Depends: firmware (>= 5.0), dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.newterm_1.0~beta1_iphoneos-arm.deb
+Size: 1133046
+Installed-Size: 2340
+MD5sum: 00d7e8a4a876dbd5bcd99a88c740f817
+Description: The standard terminal emulator with added awesome
+Name: NewTerm
+Author: HASHBANG Productions <support@hbang.ws>
+
+Package: xyz.N3RDP0RT4L.nitrous
+Version: 2.5-6k
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.nitrous_2.5-6k_iphoneos-arm.deb
+Size: 122972
+MD5sum: 4d0488a9b22dfc1407359f29da7a204d
+Description: Give JavaScript a speed boost with Nitro
+Name: Nitrous
+Author: Joe Jordan <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nitrous
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nitrous
+
+Package: xyz.N3RDP0RT4L.reprovision
+Version: 0.5.2~EOL
+Priority: optional
+Section: System
+Maintainer: Matt Clarke <matt@incendo.ws>
+Depends: firmware (>= 9.0)
+Provides: com.matchstic.Extender-Installer
+Replaces: com.matchstic.Extender-Installer
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.reprovision_0.5.2~EOL_iphoneos-arm.deb
+Size: 14391736
+MD5sum: 0481bc55fd1951d2cfb80620b7163917
+Description: Re-sign applications on your device
+Name: ReProvision
+Author: Matt Clarke <matt@incendo.ws>
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Homepage: https://github.com/Matchstic/Extender-Installer
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+
+Package: xyz.N3RDP0RT4L.safariplussnakeoil
+Version: 1.7.8-2
+Section: HYI - Tweaks
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker | com.hackyouriphone.libcscolorpicker, com.hackyouriphone.rocketbootstrap
+Conflicts: com.opa334.safariplus
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.safariplussnakeoil_1.7.8-2_iphoneos-arm.deb
+Size: 1745558
+MD5sum: de57671f8867c1a1f68f85de48670caf
+Description: Various enhancements to Safari!
+Name: Safari Plus (Cepheiless)
+Author: opa334 <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=safariplussnakeoil
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=safariplussnakeoil
+
+Package: xyz.N3RDP0RT4L.safemode
+Version: 1.0
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 3.0)
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.safemode_1.0_iphoneos-arm.deb
+Size: 45114
+Installed-Size: 56
+MD5sum: abdc1c183f923ec6346a1a0fc6bfaf33
+Description: simple shortcut to enter Safe Mode
+Name: Safe Mode Launcher
+Author: Hamish Knight <macwinexpert@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safemodelauncherData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safemodelauncherData
+Icon: file:///Applications/SafeMode.app/icon.png
+
+Package: xyz.N3RDP0RT4L.sixicondock
+Version: 0.1.0-1+debug
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.sixicondock_0.1.0-1+debug_iphoneos-arm.deb
+Size: 4124
+MD5sum: 71c10e755666f9148522ccdf9c5494b1
+Description: Now you can have six icons on the dock!
+Name: SixIconDock
+Author: maxarmin <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sixicondock
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sixicondock
+
+Package: xyz.N3RDP0RT4L.systemlog
+Version: 1.0
+Section: Tweaks
+Maintainer: Austcool Walker <0ajwalker@gmail.com>
+Depends: syslogd
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.systemlog_1.0_iphoneos-arm.deb
+Size: 728
+MD5sum: 58a020f2c4d03c25713ae2edfcfde8ad
+Description: A command line Script in the terminal that uses tail command to show the syslog
+Name: systemlog command line tool (Script)
+Author: Austcool Walker <0ajwalker@gmail.com>
+
+Package: xyz.N3RDP0RT4L.tetherme8
+Version: 1.2.0-2
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate (>= 0.9.5014), firmware (>= 8.0), preferenceloader (>= 2.2.2), network-cmds
+Conflicts: net.tetherme.tetherme, com.hackyouriphone.tetherme8
+Replaces: net.tetherme.tetherme, com.hackyouriphone.tetherme8
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.tetherme8_1.2.0-2_iphoneos-arm.deb
+Size: 151828
+MD5sum: d4eca191a16cafd87a5aabeae7a9695c
+Description: Dynamically enables native tethering iOS8+
+Name: TetherMe for iOS 10/9/8
+Author: Sam Bingner <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=tetherme8
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=tetherme8
+
+Package: xyz.N3RDP0RT4L.translucency
+Version: 1.1-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 5.0), cydia (>= 1.1.19)
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.translucency_1.1-1_iphoneos-arm.deb
+Size: 717398
+Installed-Size: 1012
+MD5sum: d4e7585306bb504e767457a4f5af88e9
+Description: Make Cydia translucent!
+Name: Translucency
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translucencyDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translucencyDp
+Icon: file:///Library/PreferenceBundles/TranslucencyPrefs.bundle/icon.png
+
+Package: xyz.N3RDP0RT4L.translucency
+Version: 1.2-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 5.0), cydia (>= 1.1.19)
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.translucency_1.2-1_iphoneos-arm.deb
+Size: 740658
+Installed-Size: 1011
+MD5sum: b6051795b1aa281bfd59516f3ab3ea80
+Description: Make Cydia translucent!
+Name: Translucency
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translucencyDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translucencyDp
+Icon: file:///Library/PreferenceBundles/TranslucencyPrefs.bundle/icon.png
+
+Package: xyz.N3RDP0RT4L.uikittools
+Version: 1.1.999-99
+Priority: optional
+Section: Utilities
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Depends: findutils, coreutils-bin
+Provides: uikittools
+Replaces: uikittools
+Architecture: iphoneos-arm
+Filename: ./debs/xyz.N3RDP0RT4L.uikittools_1.1.999-99_iphoneos-arm.deb
+Size: 28464
+Installed-Size: 1136
+MD5sum: 6b48267e7f2b39e1d06b68334bc4eee1
+Description: UIKit/GraphicsServices command line access. This is a Repacked UIkitTools to fix Sam Bingners mistakes with the uicache command possibly the other commands as well.
+Name: UIKit Tools
+Depiction: http://cydia.saurik.com/info/uikittools/
+Homepage: http://tukaani.org/lzma/
+
